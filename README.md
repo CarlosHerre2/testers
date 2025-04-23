@@ -30,17 +30,31 @@ A modern, responsive personal portfolio website built with HTML, Tailwind CSS, a
 
 ### Installation
 
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/portfolio-website.git
+1. Clone this repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Build the CSS:
+   ```
+   npm run build
+   ```
+
+## Development
+
+To watch for CSS changes during development:
+```
+npm run watch
 ```
 
-2. Navigate to the project directory:
-```bash
-cd portfolio-website
+## Production
+
+For production, make sure to build the CSS file:
+```
+npm run build
 ```
 
-3. Open `index.html` in your browser to view the website locally.
+This will generate the optimized CSS file in the `dist` directory that is linked in the HTML.
 
 ### Customization
 
